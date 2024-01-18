@@ -1,5 +1,5 @@
 # Use a base image that supports systemd, for example, Debian
-FROM debian:bullseye
+FROM debian:latest
 
 # Install necessary packages
 RUN apt-get update && \
